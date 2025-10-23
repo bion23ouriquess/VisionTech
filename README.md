@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🕶️ Smart Glass Factory
 
-## Getting Started
+Aplicação desenvolvida como parte do projeto **Desafio Indústria 4.0** do curso Técnico em Desenvolvimento de Sistemas (4ª Fase – SENAI).  
+O sistema simula uma **linha de produção automatizada** para personalização de óculos inteligentes, utilizando tecnologias modernas de **Front-End, Back-End e IoT**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Objetivo do Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Criar uma aplicação que permita ao usuário **customizar um produto (óculos)** com base em **cinco características diferentes**, e acompanhar em tempo real o **status da produção**, simulando o funcionamento de uma **bancada Smart 4.0** conectada via HTTP.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧩 Tecnologias Utilizadas
 
-## Learn More
+### 🔹 Front-End
+- **Next.js (React Framework)**
+- **TypeScript**
+- **Axios** – comunicação com a API
+- **CSS Modules / Tailwind / Material UI** (opcional)
+- **Fetch API**
 
-To learn more about Next.js, take a look at the following resources:
+### 🔹 Back-End
+- **Node.js + Express**
+- **Prisma ORM**
+- **PostgreSQL**
+- **Docker** (para conteinerização)
+- **Railway / AWS** (para implantação)
+- **RESTful API**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧠 Funcionalidades Principais
 
-## Deploy on Vercel
+| Funcionalidade | Descrição |
+|----------------|------------|
+| 🧱 Customização de Óculos | O usuário escolhe modelo, lente, cor, material e tamanho |
+| 📦 Envio de Pedido | As informações são enviadas para o servidor via API REST |
+| ⚙️ Integração IoT | O back-end simula o envio das ordens para a bancada inteligente |
+| 📊 Status do Pedido | O sistema exibe o progresso da fabricação (Em produção, Finalizado, etc.) |
+| 🖥️ Listagem de Pedidos | Painel administrativo para visualizar todos os pedidos criados |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Estrutura de Pastas
+
