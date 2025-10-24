@@ -44,3 +44,25 @@ Criar uma aplicação que permita ao usuário **customizar um produto (óculos)*
 
 ## 📁 Estrutura de Pastas
 
+app/
+├─ layout.tsx # Layout principal (Navbar + Footer + conteúdo)
+├─ page.tsx # Página inicial (Landing Page)
+├─ customizar/
+│ └─ page.tsx # Página de personalização de óculos
+├─ pedidos/
+│ └─ page.tsx # Lista de pedidos do cliente
+├─ admin/
+│ ├─ page.tsx # Área administrativa (produtos, botões)
+│ └─ novoProduto.tsx # Cadastro de novos produtos
+globals.css # Estilos globais
+components/
+├─ HeroSection.tsx # Banner animado da página inicial
+├─ CarouselProdutos.tsx# Carrossel de produtos
+├─ CustomizadorProduto.tsx # Formulário de personalização
+├─ ListaPedidos.tsx # Tabela de pedidos
+├─ Navbar.tsx # Barra de navegação
+├─ ProductCard.tsx # Cartão de produto reutilizável
+public/
+├─ imagens e ícones # Arquivos estáticos (ex.: oculos-hero.jpg, logo.png)
+node_modules/ # Dependências do projeto (gerado pelo npm)
+.next/ # Build do Next.js (gerado automaticamente)
