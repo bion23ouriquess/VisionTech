@@ -11,7 +11,7 @@ export default function heroSection() {
         backgroundPosition: "center",
         color: "white",
         textAlign: "center",
-        height: "90vh",
+        height: "100%",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -25,10 +25,11 @@ export default function heroSection() {
         style={{
           fontSize: "3.5rem",
           fontWeight: "bold",
-          textShadow: "2px 2px 8px rgba(0,0,0,0.6)",
+          textShadow: "3px 3px 9px rgba(0,0,0,0.6)",
+          color: "gray"
         }}
       >
-        Smart Glass Factory
+        VisionTech Factory
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 30 }}
@@ -38,6 +39,7 @@ export default function heroSection() {
           fontSize: "1.3rem",
           marginTop: "1rem",
           textShadow: "2px 2px 8px rgba(0,0,0,0.6)",
+          color: "gray"
         }}
       >
         Tecnologia e estilo para enxergar o futuro.

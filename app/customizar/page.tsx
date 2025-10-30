@@ -3,10 +3,10 @@ import CustomizadorProduto from "../../components/Customizadorproduto";
 
 export default function CustomizarPage() {
   return (
-    <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-      <h1 style={{ textAlign: "center" }}>🕶️ Personalize seu Óculos</h1>
+    <div style={{ width: "30%", margin: "0 auto", display: "flex", justifyContent: "center", flexDirection: "column" }}>
+      <h1 style={{ textAlign: "center" }}>Personalização de Óculos</h1>
       <p style={{ textAlign: "center", marginBottom: "2rem" }}>
-        Escolha o modelo, lente, cor e material e crie o seu estilo.
+        Aqui selecione o modelo, lente, cor, material e o tamanho.
       </p>
       <CustomizadorProduto />
     </div>
