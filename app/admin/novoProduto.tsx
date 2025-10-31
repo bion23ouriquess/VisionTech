@@ -23,7 +23,7 @@ export default function NovoProduto() {
   };
 
   return (
-    <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+    <div style={{ width: "100%", margin: "0 auto" }}>
       <h1>➕ Novo Produto</h1>
       <input
         type="text"

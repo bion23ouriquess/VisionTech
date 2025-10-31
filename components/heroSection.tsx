@@ -6,11 +6,7 @@ export default function heroSection() {
   return (
     <section
       style={{
-        backgroundImage: "url('/oculos-hero.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        color: "white",
-        textAlign: "center",
+        width: "100%",
         height: "100%",
         display: "flex",
         flexDirection: "column",
@@ -50,14 +46,21 @@ export default function heroSection() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 1 }}
+        whileHover={{
+          scale: 1.05,
+          boxShadow: "0px 0px 12px #6A0DAD",
+          transition: { duration: 0.2 }
+        }}
         style={{
           marginTop: "2rem",
-          backgroundColor: "#2563eb",
+          backgroundColor: "#4B0082",
           color: "white",
           padding: "0.9rem 1.8rem",
           borderRadius: "10px",
           textDecoration: "none",
           fontSize: "1.1rem",
+          display: "inline-block",
+          cursor: "pointer",
         }}
       >
         Personalizar Agora
