@@ -21,8 +21,8 @@ export default function heroSection() {
         style={{
           fontSize: "3.5rem",
           fontWeight: "bold",
-          textShadow: "3px 3px 9px rgba(0,0,0,0.6)",
-          color: "gray"
+          textShadow: "1px 1px 4px rgba(0,0,0,0.6)",
+          color: "#4B0082"
         }}
       >
         VisionTech Factory
@@ -35,7 +35,7 @@ export default function heroSection() {
           fontSize: "1.3rem",
           marginTop: "1rem",
           textShadow: "2px 2px 8px rgba(0,0,0,0.6)",
-          color: "gray"
+          color: "#4B0082"
         }}
       >
         Tecnologia e estilo para enxergar o futuro.

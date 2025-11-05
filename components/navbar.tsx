@@ -11,20 +11,20 @@ export default function Navbar() {
         alignItems: "center",
       }}
     >
-      <div style={{ color: "gray" }}>
+      <div style={{ color: "white" }}>
         <h1>VisionTech</h1>
       </div>
       <nav>
-        <Link href="/" style={{ marginRight: "1.5rem", color: "gray", fontSize: "1.5rem" }}>
+        <Link href="/" style={{ marginRight: "1.5rem", color: "white", fontSize: "1.5rem" }}>
           Início
         </Link>
-        <Link href="/customizar" style={{ marginRight: "1.5rem", color: "gray", fontSize: "1.5rem" }}>
+        <Link href="/customizar" style={{ marginRight: "1.5rem", color: "white", fontSize: "1.5rem" }}>
           Personalizar
         </Link>
-        <Link href="/pedidos" style={{ marginRight: "1.5rem", color: "gray", fontSize: "1.5rem" }}>
+        <Link href="/pedidos" style={{ marginRight: "1.5rem", color: "white", fontSize: "1.5rem" }}>
           Pedidos
         </Link>
-        <Link href="/admin" style={{ color: "gray", fontSize: "1.5rem" }}>
+        <Link href="/admin" style={{ color: "white", fontSize: "1.5rem" }}>
           Admin
         </Link>
       </nav>
